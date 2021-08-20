@@ -30,6 +30,10 @@ export default function Home() {
                   }
                 </div>
               )}
+              <hr />
+              <pre className="mx-1">
+                {JSON.stringify(segments, null, 2)}
+              </pre>
             </div>
           </div>
         </div>
